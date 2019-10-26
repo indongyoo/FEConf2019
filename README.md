@@ -85,8 +85,8 @@ const f2 = imgs =>
     map(img => img.height,
       map(({url}) => loadImage(url), imgs)));
 
-// f2(imgs).then(log);
-f2(imgs2).then(log);
+// f2(imgs).catch(_ => 0).then(log);
+f2(imgs2).catch(_ => 0).then(log);
 ```
 
 ## 정리

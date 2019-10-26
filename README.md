@@ -63,6 +63,7 @@ async function f1() {
 }
 // f1();
 ```
+- 위 코드는 에러를 어설프게 핸들링하여 오히려 에러보다 심한 버그가 생긴 코드입니다.
 
 ## 해결
 - Promise, async/await, try/catch 잘 다루기
